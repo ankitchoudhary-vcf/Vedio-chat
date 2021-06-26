@@ -3,7 +3,15 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-// Config here
+var firebaseConfig = {
+  apiKey: "AIzaSyDfcaDFg4Tw5kuXVH3VjFvsoI6WwUXmRys",
+  authDomain: "vedio-a1893.firebaseapp.com",
+  projectId: "vedio-a1893",
+  storageBucket: "vedio-a1893.appspot.com",
+  messagingSenderId: "794837233239",
+  appId: "1:794837233239:web:0897a0d384c8615ae37d12",
+  measurementId: "G-FXKYPY4RLP"
+};
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
